@@ -1,6 +1,13 @@
 <a name="2.0.0"></a>
 # 2.0.0 (2016-05-18)
 
+* Update API ([ee58c1f](https://github.com/Kikobeats/atom-node-resolver2/commit/ee58c1f))
+
+
+
+<a name="2.0.0"></a>
+# 2.0.0 (2016-05-18)
+
 * Add atom engine ([50adc10](https://github.com/hughsk/atom-node-resolver/commit/50adc10))
 * Add bumped config ([8b56272](https://github.com/hughsk/atom-node-resolver/commit/8b56272))
 * Release 2.0.0 ([a61a35a](https://github.com/hughsk/atom-node-resolver/commit/a61a35a))

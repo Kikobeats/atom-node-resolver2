@@ -2,7 +2,7 @@
   "name": "node-resolver2",
   "description": "Atom plugin to jump to a module's file from its require statement",
   "homepage": "https://github.com/Kikobeats/atom-node-resolver2",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "index.js",
   "author": {
     "name": "Hugh Kennedy",
