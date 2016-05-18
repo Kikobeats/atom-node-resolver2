@@ -37,7 +37,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "license": "MIT",
-  "activationCommands": [
-    "node-resolver:open-selected-dependencies"
-  ]
+  "activationCommands": {
+    "atom-workspace": "node-resolver:open-selected-dependencies"
+  }
 }
