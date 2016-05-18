@@ -1,3 +1,10 @@
+<a name="2.0.1"></a>
+## 2.0.1 (2016-05-18)
+
+* Fix hook alias ([11df362](https://github.com/Kikobeats/atom-node-resolver2/commit/11df362))
+
+
+
 <a name="2.0.0"></a>
 # 2.0.0 (2016-05-18)
 
