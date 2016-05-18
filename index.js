@@ -2,15 +2,15 @@ var isRequire = require('is-require')('require')
 var core      = require('resolve/lib/core.json')
 var position  = require('file-position')
 var eval      = require('static-eval')
-var esprima   = require('esprima')
+var esprima   = require('esprima-fb')
 var resolve   = require('resolve')
 var clone     = require('clone')
 var path      = require('path')
 var astw      = require('astw')
 
 exports.activate = function() {
-  atom.workspaceView.command('node-resolver:open-selected-dependencies', function() {
-    var editor = atom.workspace.getActiveEditor()
+  atom.commands.add('atom-text-editor', 'node-resolver:open-selected-dependencies', function() {
+    var editor = atom.workspace.getActiveTextEditor()
     var ranges = editor.getSelectedBufferRanges().slice()
     var buffer = editor.getBuffer()
     var fpn = editor.getPath()
@@ -55,7 +55,7 @@ exports.activate = function() {
         basedir: dir
       }, function(err, result) {
         if (err) throw err
-        return atom.workspaceView.open(result)
+        return atom.workspace.open(result)
       })
     })
   })

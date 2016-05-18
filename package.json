@@ -1,42 +1,43 @@
 {
-  "name": "node-resolver",
-  "version": "1.0.1",
+  "name": "node-resolver2",
   "description": "Atom plugin to jump to a module's file from its require statement",
+  "homepage": "https://github.com/Kikobeats/atom-node-resolver2",
+  "version": "1.0.1",
   "main": "index.js",
-  "license": "MIT",
-  "activationEvents": [
-    "node-resolver:open-selected-dependencies"
-  ],
-  "scripts": {},
   "author": {
     "name": "Hugh Kennedy",
     "email": "hughskennedy@gmail.com",
     "url": "http://hughsk.io/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Kikobeats/atom-node-resolver2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kikobeats/atom-node-resolver2/issues"
+  },
+  "keywords": [
+    "atom",
+    "file",
+    "navigation",
+    "plugin",
+    "require",
+    "resolve"
+  ],
   "dependencies": {
     "astw": "^1.2.0",
     "clone": "^0.1.17",
-    "esprima": "^1.2.2",
+    "esprima-fb": "~15001.1001.0-dev-harmony-fb",
     "file-position": "0.0.0",
     "is-require": "0.0.1",
     "resolve": "^0.7.1",
     "static-eval": "^0.2.3"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hughsk/atom-node-resolver.git"
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
   },
-  "keywords": [
-    "atom",
-    "require",
-    "plugin",
-    "resolve",
-    "file",
-    "navigation"
-  ],
-  "homepage": "https://github.com/hughsk/atom-node-resolver",
-  "bugs": {
-    "url": "https://github.com/hughsk/atom-node-resolver/issues"
-  }
+  "license": "MIT",
+  "activationCommands": [
+    "node-resolver:open-selected-dependencies"
+  ]
 }
