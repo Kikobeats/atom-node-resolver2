@@ -25,13 +25,13 @@
     "resolve"
   ],
   "dependencies": {
-    "astw": "^1.2.0",
-    "clone": "^0.1.17",
+    "astw": "^2.0.0",
+    "clone": "^2.0.0",
     "esprima-fb": "~15001.1001.0-dev-harmony-fb",
     "file-position": "0.0.0",
     "is-require": "0.0.1",
-    "resolve": "^0.7.1",
-    "static-eval": "^0.2.3"
+    "resolve": "^1.1.7",
+    "static-eval": "^1.1.1"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
