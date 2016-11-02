@@ -2,11 +2,13 @@ var isRequire = require('is-require')('require')
 var core      = require('resolve/lib/core.json')
 var position  = require('file-position')
 var eval      = require('static-eval')
-var esprima   = require('esprima-fb')
+var esprima   = require('espree')
 var resolve   = require('resolve')
 var clone     = require('clone')
 var path      = require('path')
-var astw      = require('astw')
+var astw = require('loophole').allowUnsafeNewFunction(function() {
+  return require('astw')
+});
 
 exports.activate = function() {
   atom.commands.add('atom-text-editor', 'node-resolver:open-selected-dependencies', function() {
@@ -16,7 +18,13 @@ exports.activate = function() {
     var fpn = editor.getPath()
     var src = buffer.getText()
     var ast = esprima.parse(src, {
-      loc: true
+      loc: true,
+      ecmaVersion: 8,
+      sourceType: "module",
+      ecmaFeatures: {
+        jsx: true,
+        experimentalObjectRestSpread: true
+      }
     })
 
     var lookup = position(src)
