@@ -1,3 +1,14 @@
+<a name="2.0.2"></a>
+## 2.0.2 (2016-11-02)
+
+* esprima → espree ([5142c41](https://github.com/Kikobeats/atom-node-resolver2/commit/5142c41))
+* esprima-fb → esprima ([4ef79b3](https://github.com/Kikobeats/atom-node-resolver2/commit/4ef79b3))
+* Remove duplicate ([a07f427](https://github.com/Kikobeats/atom-node-resolver2/commit/a07f427))
+* Update esprima version ([fb86211](https://github.com/Kikobeats/atom-node-resolver2/commit/fb86211))
+* chore(package): update dependencies ([d603090](https://github.com/Kikobeats/atom-node-resolver2/commit/d603090))
+
+
+
 <a name="2.0.1"></a>
 ## 2.0.1 (2016-05-18)
 
