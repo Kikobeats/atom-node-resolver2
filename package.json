@@ -27,7 +27,7 @@
   "dependencies": {
     "astw": "~2.0.0",
     "clone": "~2.1.0",
-    "espree": "~3.3.2",
+    "espree": "~3.4.0",
     "file-position": "0.0.0",
     "is-require": "0.0.1",
     "loophole": "~1.1.0",
