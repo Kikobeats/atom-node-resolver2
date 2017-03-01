@@ -25,7 +25,7 @@
     "resolve"
   ],
   "dependencies": {
-    "astw": "~2.0.0",
+    "astw": "~2.2.0",
     "clone": "~2.1.0",
     "espree": "~3.4.0",
     "file-position": "0.0.0",
