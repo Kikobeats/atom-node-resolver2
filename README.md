@@ -1,5 +1,7 @@
 # node-resolver [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/atom-node-resolver2.svg)](https://greenkeeper.io/)
+
 Atom plugin to jump to a module's file from its require statement.
 
 ![node-resolver](http://imgur.com/1JW3Txg.gif)
